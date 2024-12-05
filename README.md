@@ -11,3 +11,5 @@ Data Analysis: Excel and SQL
 Data Visualization: Power BI and Tableau
 
 Data Warehousing Platforms: Snowflake and BigQuery
+
+
