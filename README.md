@@ -7,5 +7,7 @@ I have a passion for transforming raw data into meaningful insights, creating pe
 Skills & Tools:
 
 Data Analysis: Excel and SQL
+
 Data Visualization: Power BI and Tableau
+
 Data Warehousing Platforms: Snowflake and BigQuery
