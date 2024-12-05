@@ -14,7 +14,7 @@ Data Visualization: Power BI and Tableau
 
 Data Warehousing Platforms: Snowflake and BigQuery
 
-Portfolio Projects
+##Portfolio Projects
 
 Project: AML Transaction Backlog – Russian Invasion Context
 Background:
