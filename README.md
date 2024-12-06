@@ -1,22 +1,4 @@
-# Russian Invasion Context
-
-About me 
-
-I am a Data Analyst with a strong background in data analysis, process optimization, and digital transformation across the financial sector. My expertise includes working with SQL, Power BI, Tableau, and Snowflake to extract actionable insights from complex datasets, support strategic decision-making, and improve operational efficiency.
-
-I have a passion for transforming raw data into meaningful insights, creating performance metrics (KPIs), and implementing automated solutions that drive business value. I have experience in developing and refining data pipelines, designing dashboards, and ensuring data integrity across projects.
-
-Skills & Tools:
-
-Data Analysis: Excel and SQL
-
-Data Visualization: Power BI and Tableau
-
-Data Warehousing Platforms: Snowflake and BigQuery
-
-# Portfolio Projects 
-
-Project: AML Transaction Backlog – Russian Invasion Context
+# AML Transaction Backlog – Russian Invasion Context
 Background:
 Following the Russian invasion of Ukraine, Nordea experienced a significant increase in flagged transactions due to enhanced sanctions and AML monitoring. This surge resulted in a transaction backlog that required immediate attention. The goal was to analyse the backlog, prioritise reviews, identify trends, and improve operational efficiency while ensuring compliance with global sanctions.
 As a Data Analyst, my role was to analyse the backlog, detect patterns, and provide actionable insights to help the AML team prioritise high-risk cases and clear the backlog efficiently.
