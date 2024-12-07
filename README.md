@@ -19,30 +19,30 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 
 1. Analyse and Prioritise Backlogged Transactions:
 
-       * Identify high-risk transactions involving Russian entities, sanctioned individuals, or suspicious patterns.
+   - Identify high-risk transactions involving Russian entities, sanctioned individuals, or suspicious patterns.
 2. Detect Patterns and Trends:
 
-       * Uncover common characteristics in flagged transactions to refine screening processes and reduce false positives.
+   - Uncover common characteristics in flagged transactions to refine screening processes and reduce false positives.
    
 3. Enhance Efficiency:
 
-       * Create dashboards and reports to help AML analysts and management track progress and focus on critical areas.
+   - Create dashboards and reports to help AML analysts and management track progress and focus on critical areas.
 
 # Scope of Work:
 
 1. Data Sources:
 
-       * Transaction Monitoring System (TMS) alerts.
-       * Sanctions screening results.
-       * Customer and account data.
-       * Payment metadata (e.g., timestamps, geolocations).
+   - Transaction Monitoring System (TMS) alerts.
+   - Sanctions screening results.
+   - Customer and account data.
+   - Payment metadata (e.g., timestamps, geolocations).
    
 2. Key Fields to Analyse:
 
-       * Counterparty details (e.g., country, bank, ultimate beneficiary).
-       * Transaction amounts and frequencies.
-       * Flags raised (e.g., sanctioned individual, unusual payment structure).
-       * Customer risk ratings and KYB/KYC completeness.
+   - Counterparty details (e.g., country, bank, ultimate beneficiary).
+   - Transaction amounts and frequencies.
+   - Flags raised (e.g., sanctioned individual, unusual payment structure).
+   - Customer risk ratings and KYB/KYC completeness.
 
 # Responsibilities:   
 
@@ -51,7 +51,41 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 
   Tool Used: Excel
 
--  Objective: Prepare raw data from Transaction Monitoring System (TMS) alerts, sanctions screening results, and customer/account datasets for analysis.
+-  Objective: Prepare raw data from Transaction Monitoring System (TMS) alerts, sanctions screening results, and entity/account datasets for analysis.
+
+
+This table contains information about transactions flagged for review
+| Transaction_ID | Customer_ID | Date       | Amount    | Country | Flag_Reason       | Risk_Level |
+|----------------|-------------|------------|-----------|---------|-------------------|------------|
+| 1              | 101         | 2024-12-01 | 15000.50  | Russia  | Sanctioned Entity | High       |
+| 2              | 102         | 2024-12-02 | 7500.00   | Belarus | Unusual Payment   | Medium     |
+| 3              | 103         | 2024-12-03 | 20000.75  | Ukraine | High Volume       | High       |
+| 4              | 104         | 2024-12-04 | 5000.00   | USA     | Round Number      | Low        |
+| 5              | 105         | 2024-12-05 | 10000.00  | Russia  | Sanctioned Entity | High       |
+
+
+
+This table lists sanctioned entities and their associated countries. 
+| Entity_Name    | Country  |
+|----------------|----------|
+| VTB Bank       | Russia   |
+| Alfa Group     | Belarus  |
+| Gazprom        | Russia   |
+
+
+
+This table includes details about entities associated with the flagged transactions.
+| Entity_ID | Name              | KYC_Completed | Risk_Rating |
+|-----------|-------------------|---------------|-------------|
+| 101       | Acme Corp         | Yes           | High        |
+| 102       | Global Ventures   | No            | Medium      |
+| 103       | Apex Industries   | Yes           | High        |
+| 104       | Horizon LLC       | Yes           | Low         |
+| 105       | Titan Holdings    | No            | High        |
+
+
+
+
 
 - Steps Taken:
 
@@ -61,9 +95,9 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 
    - Addressed missing or incomplete data by:
 
-         * Filling gaps with estimated values (e.g., using averages).
+     - Filling gaps with estimated values (e.g., using averages).
 
-         * Highlighting incomplete customer profiles for manual review using conditional formatting.
+     - Highlighting incomplete customer profiles for manual review using conditional formatting.
 
  ## 2. Data Analysis
 
