@@ -5,6 +5,36 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 
 # Project Objectives:
 
+1. Analyse and Prioritise Backlogged Transactions:
+
+       * Identify high-risk transactions involving Russian entities, sanctioned individuals, or suspicious patterns.
+2. Detect Patterns and Trends:
+
+       * Uncover common characteristics in flagged transactions to refine screening processes and reduce false positives.
+   
+3. Enhance Efficiency:
+
+       * Create dashboards and reports to help AML analysts and management track progress and focus on critical areas.
+
+# Scope of Work:
+
+1. Data Sources:
+
+       * Transaction Monitoring System (TMS) alerts.
+       * Sanctions screening results.
+       * Customer and account data.
+       * Payment metadata (e.g., timestamps, geolocations).
+   
+2. Key Fields to Analyse:
+
+       * Counterparty details (e.g., country, bank, ultimate beneficiary).
+       * Transaction amounts and frequencies.
+       * Flags raised (e.g., sanctioned individual, unusual payment structure).
+       * Customer risk ratings and KYB/KYC completeness.
+
+# Responsibilities:   
+
+
 ## 1. Data Cleaning and Preparation
 
   Tool Used: Excel
