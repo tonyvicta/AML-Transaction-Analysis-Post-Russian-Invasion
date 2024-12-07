@@ -1,5 +1,10 @@
 # AML Transaction Backlog – Russian Invasion Context
 
+# Table of contents 
+
+- [Background](#Background)
+- [Project Objectives](#Project-Objectives)
+
 # Background:
 
 Following the Russian invasion of Ukraine, my client experienced a significant increase in flagged transactions due to enhanced sanctions and AML monitoring. This surge resulted in a transaction backlog that required immediate attention. The goal was to analyse the backlog, prioritise reviews, identify trends, and improve operational efficiency while ensuring compliance with global sanctions.
