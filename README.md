@@ -172,7 +172,7 @@ Deliverables:
     * List of high-risk entities for immediate review.
     * Recommendations to reduce false positives (e.g., updating thresholds for specific flags)
   
-## Example Workflow:
+# Example Workflow:
 
 1. Step 1: Data Exploration
     * Query flagged transactions and customer data using SQL.
@@ -199,7 +199,7 @@ Challenges:
 2. Dynamic Risks: Constantly updating sanctions lists and evasion tactics by bad actors.
 3. Scalability: Efficiently handling large datasets in Excel while providing actionable insights quickly.        
 
-## Outcome
+# Outcome
 
 Using this technical stack, the AML team was able to:
 
