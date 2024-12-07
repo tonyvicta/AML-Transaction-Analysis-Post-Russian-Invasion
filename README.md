@@ -1,5 +1,7 @@
 # AML Transaction Backlog – Russian Invasion Context
-Background:
+
+# Background:
+
 Following the Russian invasion of Ukraine, My client experienced a significant increase in flagged transactions due to enhanced sanctions and AML monitoring. This surge resulted in a transaction backlog that required immediate attention. The goal was to analyse the backlog, prioritise reviews, identify trends, and improve operational efficiency while ensuring compliance with global sanctions.
 As a Data Analyst, my role was to analyse the backlog, detect patterns, and provide actionable insights to help the AML team prioritise high-risk cases and clear the backlog efficiently.
 
@@ -149,20 +151,53 @@ Tool Used: Power BI
    -  Slicers for filtering by Risk_Level, Country, and Date.
  
    -  Drill-through functionality to examine flagged transactions at a granular level.
- 
-## Example Workflow
 
-1. Step 1: Data Exploration in SQL
-   
-   - Wrote queries to extract and aggregate data for insights into high-risk trends.
+ ## 4. Collaboration:
+
+   - Worked closely with AML analysts and team leads to refine priority rules.
+   - Provided data-driven recommendations to enhance TMS algorithms. 
+
+Deliverables:
+
+1. Reports:
+
+   - Weekly updates on backlog status, including trends and patterns.
+   - Risk-based segmentation to guide resource allocation.
+
+2. Dashboards:
+    * Live progress tracker for transaction reviews.
+    * Heatmaps showing high-risk geographies or payment corridors.
+
+3. Actionable Insights:
+    * List of high-risk entities for immediate review.
+    * Recommendations to reduce false positives (e.g., updating thresholds for specific flags)
   
-3. Step 2: Data Preparation in Excel
+## Example Workflow:
 
-   - Cleaned and validated datasets for use in SQL and Power BI.
-  
-4. Step 3: Visualisation in Power BI
+1. Step 1: Data Exploration
+    * Query flagged transactions and customer data using SQL.
+    * Identify common reasons for flags (e.g., sanctioned entity, large transaction, unusual patterns)
 
-   - Built dashboards to visualize backlog trends, geographical risks, and performance metrics.
+2. Step 2: Prioritisation Criteria
+    * Develop a risk score for each transaction based on:
+        * Amount: Higher amounts get more weight.
+        * Counterparty Risk: Links to high-risk jurisdictions or sanctioned entities.
+        * Transaction History: Unusual patterns compared to the customer’s normal behaviour.
+     
+3. Step 3: Visualise Trends
+    * Use Excel and Power BI to plot:
+        * Daily/weekly flag volumes.
+        * Breakdown by risk levels or alert types.
+        * Geographical trends (e.g., heat maps of Russian-linked transactions)
+     
+4. Step 4: Deliver Insights
+    * Highlight critical areas needing attention, such as a spike in flagged transactions from specific regions.
+    * Recommend adjustments to transaction monitoring rules to reduce false positives.
+
+Challenges:
+1. Incomplete Data: Some transactions lacked key details, requiring assumptions or data imputation.
+2. Dynamic Risks: Constantly updating sanctions lists and evasion tactics by bad actors.
+3. Scalability: Efficiently handling large datasets in Excel while providing actionable insights quickly.        
 
 ## Outcome
 
