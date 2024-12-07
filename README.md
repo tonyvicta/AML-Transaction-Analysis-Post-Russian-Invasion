@@ -4,8 +4,13 @@
 
 - [Background](#Background)
 - [Project Objectives](#Project-Objectives)
-
-# Background:
+- [Scope of Work](#Scope-of-Work)
+- [Responsibilities](#Responsibilities)
+- [Example Workflow](#Example-Workflow)
+- [Challenges](#Challenges)
+- [Outcome](#Outcome)
+  
+- # Background:
 
 Following the Russian invasion of Ukraine, my client experienced a significant increase in flagged transactions due to enhanced sanctions and AML monitoring. This surge resulted in a transaction backlog that required immediate attention. The goal was to analyse the backlog, prioritise reviews, identify trends, and improve operational efficiency while ensuring compliance with global sanctions.
 As a Data Analyst, my role was to analyse the backlog, detect patterns, and provide actionable insights to help the AML team prioritise high-risk cases and clear the backlog efficiently.
@@ -199,7 +204,7 @@ Deliverables:
     * Highlight critical areas needing attention, such as a spike in flagged transactions from specific regions.
     * Recommend adjustments to transaction monitoring rules to reduce false positives.
 
-Challenges:
+# Challenges:
 1. Incomplete Data: Some transactions lacked key details, requiring assumptions or data imputation.
 2. Dynamic Risks: Constantly updating sanctions lists and evasion tactics by bad actors.
 3. Scalability: Efficiently handling large datasets in Excel while providing actionable insights quickly.        
