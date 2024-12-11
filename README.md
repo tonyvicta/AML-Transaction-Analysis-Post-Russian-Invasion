@@ -171,6 +171,11 @@ Tool Used: Power BI
 
 - Dashboards Developed:
 
+
+![visual dashboard for pie chart](./DistributionOfTransactionsByRiskLevel.png) 
+
+
+
  1. Backlog Breakdown:
 
     - Visual: Pie chart showing the distribution of transactions by Risk_Level (High, Medium, Low).
