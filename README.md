@@ -3,8 +3,7 @@
 ![testing the error page](./Distribution_Of_Transactions_By_Risk_Level.png)
 
 ![Checking and testing](./Matplotlib_Chart.png)
-
-
+![Testing](./Visual_map.png) 
 
 
 
