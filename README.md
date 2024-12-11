@@ -172,7 +172,6 @@ Tool Used: Power BI
 - Dashboards Developed:
 
 ![testing the error page](./Distribution_Of_Transactions_By_Risk_Level.png)
-
 ![Checking and testing](./Matplotlib_Chart.png)
 ![Testing](./Visual_map_png.png) 
 ![Testing](./Volume_Of_Flagged_Transactions_Over_Time.png)
