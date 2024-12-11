@@ -248,6 +248,10 @@ Deliverables:
 
 # Outcome
 
+![cleaned data outcome](./PowerBI_Dashboard_Data.xlsx) 
+
+
+
 Using this technical stack, the AML team was able to:
 
 - Focus on high-risk flagged transactions efficiently.
