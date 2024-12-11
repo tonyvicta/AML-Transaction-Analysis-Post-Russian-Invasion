@@ -1,8 +1,9 @@
 # AML Transaction Backlog – Russian Invasion Context
 
-![testing the error page](./Distribution Of Transactions By Risk Level.png)
+![testing the error page](./Distribution_Of_Transactions_By_Risk_Level.png)
 
-![Checking and testing](./Matplotlib Chart.png)
+![Checking and testing](./Matplotlib_Chart.png)
+
 
 
 
