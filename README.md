@@ -171,31 +171,33 @@ Tool Used: Power BI
 
 - Dashboards Developed:
 
-![testing the error page](./Distribution_Of_Transactions_By_Risk_Level.png)
-![Checking and testing](./Matplotlib_Chart.png)
-![Testing](./Visual_map_png.png) 
-![Testing](./Volume_Of_Flagged_Transactions_Over_Time.png)
-
-
  1. Backlog Breakdown:
+
+![testing the error page](./Distribution_Of_Transactions_By_Risk_Level.png)
 
     - Visual: Pie chart showing the distribution of transactions by Risk_Level (High, Medium, Low).
    
     - KPI Metric: Total number of flagged transactions and cleared backlog percentages.
    
- 2. Geographical Heatmap:
+ 3. Geographical Heatmap:
 
-    - Visual: Interactive map highlighting flagged transactions by Counterparty_Country.
+![Testing](./Visual_map_png.png) 
+
+    - Visual: Static map highlighting flagged transactions by Counterparty_Country.
    
     - Purpose: Identify regions with the highest risk exposure.
    
- 3. Trend Analysis:
+ 5. Trend Analysis:
+
+![Testing](./Volume_Of_Flagged_Transactions_Over_Time.png)
 
     - Visual: Line chart showing the volume of flagged transactions over time.
    
     - Filters: Risk levels, flag reasons, and date ranges for drill-down analysis.
    
-4.  Flag Reason Insights:
+6.  Flag Reason Insights:
+
+![Checking and testing](./Matplotlib_Chart.png)
 
     - Visual: Bar chart displaying the frequency of each Flag_Reason and corresponding transaction amounts.
   
