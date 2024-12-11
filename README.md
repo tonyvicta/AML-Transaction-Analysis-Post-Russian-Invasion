@@ -172,8 +172,7 @@ Tool Used: Power BI
 - Dashboards Developed:
 
 
-![visual dashboard for pie chart](./DistributionOfTransactionsByRiskLevel.png) 
-
+![Visual dashboard for pie chart](./Distribution Of Transactions By Risk Level.png) 
 
 
  1. Backlog Breakdown:
