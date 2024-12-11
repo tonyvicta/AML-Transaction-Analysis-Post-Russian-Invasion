@@ -179,7 +179,7 @@ Tool Used: Power BI
    
     - KPI Metric: Total number of flagged transactions and cleared backlog percentages.
    
- 3. Geographical Heatmap:
+ 2. Geographical Heatmap:
 
 ![Testing](./Visual_map_png.png) 
 
@@ -187,7 +187,7 @@ Tool Used: Power BI
    
     - Purpose: Identify regions with the highest risk exposure.
    
- 5. Trend Analysis:
+ 3. Trend Analysis:
 
 ![Testing](./Volume_Of_Flagged_Transactions_Over_Time.png)
 
@@ -195,7 +195,7 @@ Tool Used: Power BI
    
     - Filters: Risk levels, flag reasons, and date ranges for drill-down analysis.
    
-6.  Flag Reason Insights:
+4.  Flag Reason Insights:
 
 ![Checking and testing](./Matplotlib_Chart.png)
 
