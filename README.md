@@ -47,6 +47,9 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 # Responsibilities:   
 
 
+![Excel to PowerBI workflow](./kaggle_to_powerbi.gif)
+
+
 ## 1. Data Cleaning and Preparation
 
   Tool Used: Excel
