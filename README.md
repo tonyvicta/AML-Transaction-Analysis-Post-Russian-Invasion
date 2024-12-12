@@ -1,6 +1,6 @@
 # AML Transaction Backlog – Russian Invasion Context
 
-# Table of contents 
+## Table of contents 
 
 - [Background](#Background)
 - [Project Objectives](#Project-Objectives)
@@ -9,13 +9,18 @@
 - [Example Workflow](#Example-Workflow)
 - [Challenges](#Challenges)
 - [Outcome](#Outcome)
-  
-# Background:
+- [How to Run](#How-to-Run)
+- [Employment Search Purpose](#Employment-Search-Purpose)
+- [Contribution Guidelines](#Contribution-Guidelines)
+- [License](#License)
+
+
+## Background:
 
 Following the Russian invasion of Ukraine, my client experienced a significant increase in flagged transactions due to enhanced sanctions and AML monitoring. This surge resulted in a transaction backlog that required immediate attention. The goal was to analyse the backlog, prioritise reviews, identify trends, and improve operational efficiency while ensuring compliance with global sanctions.
 As a Data Analyst, my role was to analyse the backlog, detect patterns, and provide actionable insights to help the AML team prioritise high-risk cases and clear the backlog efficiently.
 
-# Project Objectives:
+## Project Objectives:
 
 1. Analyse and Prioritise Backlogged Transactions:
 
@@ -28,7 +33,7 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 
    - Create dashboards and reports to help AML analysts and management track progress and focus on critical areas.
 
-# Scope of Work:
+## Scope of Work:
 
 1. Data Sources:
 
@@ -50,7 +55,7 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
 ![Excel to PowerBI workflow](./kaggle_to_powerbi.gif)
 
 
-## 1. Data Cleaning and Preparation
+### 1. Data Cleaning and Preparation
 
   Tool Used: Excel
 
@@ -102,7 +107,7 @@ This table includes details about entities associated with the flagged transacti
 
      - Highlighting incomplete customer profiles for manual review using conditional formatting.
 
- ## 2. Data Analysis
+ ### 2. Data Analysis
 
   Tool Used: SQL
 
@@ -163,7 +168,7 @@ ORDER BY
 ```
 -  Purpose: Determine high-risk geographies for flagged transactions.
 
-## 3. Visualisation and Reporting
+### 3. Visualisation and Reporting
 
 Tool Used: Power BI
 
@@ -207,7 +212,7 @@ Tool Used: Power BI
  
    -  Drill-through functionality to examine flagged transactions at a granular level.
 
- ## 4. Collaboration:
+ ### 4. Collaboration:
 
    - Worked closely with AML analysts and team leads to refine priority rules.
    - Provided data-driven recommendations to enhance TMS algorithms. 
@@ -227,7 +232,7 @@ Deliverables:
     * List of high-risk entities for immediate review.
     * Recommendations to reduce false positives (e.g., updating thresholds for specific flags)
   
-# Example Workflow:
+## Example Workflow:
 
 1. Step 1: Data Exploration
     * Query flagged transactions and customer data using SQL.
@@ -249,12 +254,12 @@ Deliverables:
     * Highlight critical areas needing attention, such as a spike in flagged transactions from specific regions.
     * Recommend adjustments to transaction monitoring rules to reduce false positives.
 
-# Challenges:
+## Challenges:
 1. Incomplete Data: Some transactions lacked key details, requiring assumptions or data imputation.
 2. Dynamic Risks: Constantly updating sanctions lists and evasion tactics by bad actors.
 3. Scalability: Efficiently handling large datasets in Excel while providing actionable insights quickly.        
 
-# Outcome
+## Outcome
 
 Using this technical stack, the AML team was able to:
 
@@ -263,3 +268,35 @@ Using this technical stack, the AML team was able to:
 - Clear the backlog faster by prioritizing cases based on risk scores.
 
 - Monitor compliance performance through interactive Power BI dashboards.
+
+## How to Run
+
+1. Clone the repository.
+
+2. Set up the database and import the dataset.
+
+3. Execute the provided SQL queries.
+
+4. Review the output and reports.
+
+
+## Employment Search Purpose
+
+This project serves as a practical demonstration of my technical skills in data querying, financial analysis, and database management. It highlights my ability to extract actionable insights from complex datasets—skills highly relevant for data analyst and financial crime roles.
+
+## Contribution Guidelines
+
+- Fork the repository.
+
+- Create a feature branch.
+
+- Commit changes with clear messages.
+
+- Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+
+Disclaimer: This project is for educational and professional portfolio purposes, leveraging data provided by The World Bank.
