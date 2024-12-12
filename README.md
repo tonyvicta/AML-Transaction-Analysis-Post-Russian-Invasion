@@ -10,7 +10,7 @@
 - [Challenges](#Challenges)
 - [Outcome](#Outcome)
   
-- # Background:
+# Background:
 
 Following the Russian invasion of Ukraine, my client experienced a significant increase in flagged transactions due to enhanced sanctions and AML monitoring. This surge resulted in a transaction backlog that required immediate attention. The goal was to analyse the backlog, prioritise reviews, identify trends, and improve operational efficiency while ensuring compliance with global sanctions.
 As a Data Analyst, my role was to analyse the backlog, detect patterns, and provide actionable insights to help the AML team prioritise high-risk cases and clear the backlog efficiently.
