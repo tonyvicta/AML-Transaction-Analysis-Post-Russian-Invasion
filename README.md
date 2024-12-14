@@ -49,7 +49,7 @@ As a Data Analyst, my role was to analyse the backlog, detect patterns, and prov
    - Flags raised (e.g., sanctioned individual, unusual payment structure).
    - Customer risk ratings and KYB/KYC completeness.
 
-# Responsibilities:   
+## Responsibilities:   
 
 
 ![Excel to PowerBI workflow](./kaggle_to_powerbi.gif)
