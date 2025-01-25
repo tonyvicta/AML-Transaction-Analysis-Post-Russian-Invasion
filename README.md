@@ -172,7 +172,7 @@ ORDER BY
 
 Tool Used: Power BI
 
-- Objective: Create interactive dashboards to track progress, trends, and performance metrics.
+- Objective: Created a dashboards to track progress, trends, and performance metrics.
 
 - Dashboards Developed:
 
