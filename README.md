@@ -181,7 +181,9 @@ Tool Used: Power BI
 ![testing the error page](./Distribution_Of_Transactions_By_Risk_Level.png)
 
     - Visual: Pie chart showing the distribution of transactions by Risk_Level (High, Medium, Low).
-   
+
+![testing the error page](./KPI_Dashboard.png)
+
     - KPI Metric: Total number of flagged transactions and cleared backlog percentages.
    
  2. Geographical Heatmap:
