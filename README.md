@@ -200,7 +200,6 @@ Tool Used: Power BI
 
     - Visual: Line chart showing the volume of flagged transactions over time.
    
-    - Filters: Risk levels, flag reasons, and date ranges for drill-down analysis.
    
 4.  Flag Reason Insights:
 
