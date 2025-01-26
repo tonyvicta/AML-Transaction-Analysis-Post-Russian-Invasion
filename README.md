@@ -122,7 +122,7 @@ SELECT
     t.transaction_id,
     t.customer_id,
     t.amount,
-    t.counterparty_country,
+    t.country,
     t.flag_reason,
     c.risk_rating
 FROM 
@@ -131,7 +131,7 @@ JOIN
     customers c ON t.customer_id = c.customer_id
 WHERE 
     t.risk_level = 'High'
-    AND (t.counterparty_country IN (SELECT sanctioned_country FROM sanctions_list)
+    AND (t.country IN (SELECT sanctioned_country FROM sanctions_list)
          OR t.flag_reason LIKE '%Sanctioned Entity%');
 ```
 -  Purpose: Identify flagged transactions linked to sanctioned entities or high-risk jurisdictions.
@@ -156,13 +156,13 @@ ORDER BY
 
 ```sql
 SELECT 
-    counterparty_country,
+    country,
     COUNT(*) AS flagged_transactions,
     ROUND(SUM(amount), 2) AS total_amount
 FROM 
     transactions
 GROUP BY 
-    counterparty_country
+    country
 ORDER BY 
     flagged_transactions DESC;
 ```
