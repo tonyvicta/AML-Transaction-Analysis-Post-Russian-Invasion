@@ -1,4 +1,4 @@
-# AML Transaction Backlog – Russian Invasion Context
+# AML Transaction Backlog 
 
 ## Table of contents 
 
