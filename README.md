@@ -1,5 +1,15 @@
 # AML Transaction Backlog - Russian Invasion Context 
 
+
+---
+
+## 🧰 Tech Stack
+- SQL (Snowflake (Cloud Data Platform)
+- Power BI (Visualising Data)
+
+---
+
+
 ## Table of contents 
 
 - [Background](#Background)
