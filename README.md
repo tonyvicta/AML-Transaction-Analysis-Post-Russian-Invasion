@@ -4,11 +4,11 @@
 ---
 
 ## 🧰 Tech Stack
-- SQL (Snowflake (Cloud Data Platform)
-- Power BI (Visualising Data)
+- Excel (Data cleaning)
+- SQL (Querrying, transforming, and analysing)
+- Power BI (Visualising data)
 
 ---
-
 
 ## Table of contents 
 
