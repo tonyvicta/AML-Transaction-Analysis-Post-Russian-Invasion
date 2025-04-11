@@ -4,9 +4,9 @@
 ---
 
 ## 🧰 Tech Stack
-- Excel (Data cleaning)
-- SQL (Querrying, transforming, and analysing)
-- Power BI (Visualising data)
+- Excel (Data Cleaning)
+- SQL (Querrying, Transforming, and Analysing)
+- Power BI (Visualising Data)
 
 ---
 
